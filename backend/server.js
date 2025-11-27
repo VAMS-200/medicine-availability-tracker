@@ -17,8 +17,8 @@ const app = express();
 const corsOptions = {
   origin: [
     "http://localhost:5173",
-    "https://medicine-tracker-backend-jekt.onrender.com"     
-          ]
+    "https://medicine-tracker-backend-jekt.onrender.com",     
+          ],
   
   credentials: false,
 };
