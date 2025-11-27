@@ -15,7 +15,11 @@ const app = express();
 // Middleware
 // Middleware
 const corsOptions = {
-  origin: ["http://localhost:5173"], // e.g. "https://your-frontend.vercel.app"
+  origin: [
+    "http://localhost:5173",
+    "https://medicine-tracker-backend-jekt.onrender.com"     
+          ]
+  
   credentials: false,
 };
 app.use(cors(corsOptions));
